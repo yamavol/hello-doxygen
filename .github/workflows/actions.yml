@@ -2,7 +2,7 @@ name: GitHub actions
 on: [push]
 jobs:
   build_and_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     strategy:
       fail-fast: true
     steps:
@@ -10,20 +10,12 @@ jobs:
     - name: Install Doxygen
       run: |
         sudo apt-get install doxygen -y
-    - name: CMake configuration
+    - name: cmake build
       run: |
         cmake -B build  .
-        cmake -B build2 .
-    - name: build with cmake
-      run: |
         cmake --build build/doc
-    - name: build with docker (Doxygen v1.9.2)
-      uses: mattnotmitt/doxygen-action@v1.9.2
-      with: 
-        working-directory: build2/doc/
-        doxyfile-path: Doxyfile
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build2/doc/out/html
+        publish_dir: ./build/doc/out/html
