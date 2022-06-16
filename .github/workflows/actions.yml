@@ -1,7 +1,7 @@
 name: GitHub actions
 on: [push]
 jobs:
-  build:
+  build_and_deploy:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: true
@@ -14,3 +14,8 @@ jobs:
       run: |
         cmake -B build .
         cmake --build build/doc
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
