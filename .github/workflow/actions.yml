@@ -1,0 +1,16 @@
+name: GitHub actions
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Doxygen
+      run: |
+        sudo apt-get install doxygen -y
+    - name: build
+      run: |
+        cmake -B build .
+        cmake --build build/doc
