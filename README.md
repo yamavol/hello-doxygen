@@ -1,6 +1,6 @@
 # Doxygen Style
 
-Doxygenのカスタムスタイルを組み込んだDoxyfileと、CMakeの設定例です。
+Doxygenのカスタムスタイルを組み込んだDoxyfileとCMakeの設定例です。
 
 Doxygen v1.9.2 で動作確認しています。
 
