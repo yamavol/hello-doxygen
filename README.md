@@ -15,6 +15,10 @@ cmake --build build/doc
 
 設定方法はCMakeLists.txtを確認してください。
 
+## サンプル
+
+https://yamavol.github.io/doxygen-style
+
 ## Customization
 
 ソースコードはsrcフォルダに、ドキュメントはdoc/files以下に置いています。doc/stylesはデザインやフレームワークに関するファイルです。
