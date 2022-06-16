@@ -24,12 +24,30 @@
 */
 var NAVTREE =
 [
-  [ "Documentation Title", "index.html", ]
+  [ "Documentation Title", "index.html", [
+    [ "ドキュメントについて", "md__home_runner_work_doxygen_style_doxygen_style_doc_files_index.html", "md__home_runner_work_doxygen_style_doxygen_style_doc_files_index" ],
+    [ "Todo List", "todo.html", null ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Functions", "functions_func.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ]
+      ] ]
+    ] ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"accumulator_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
