@@ -13,8 +13,8 @@ jobs:
     - name: Install Doxygen
       run: |
         wget https://jaist.dl.sourceforge.net/project/doxygen/rel-1.9.4/doxygen-1.9.4.linux.bin.tar.gz
-        tar xzf doxygen-1.9.2.linux.bin.tar.gz
-        cd doxygen-1.9.2
+        tar xzf doxygen-1.9.4.linux.bin.tar.gz
+        cd doxygen-1.9.4
         sudo make install
         cd ../
     - name: cmake build
