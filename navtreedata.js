@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "SKWallet", "index.html", [
+  [ "Doxygen", "index.html", [
     [ "ドキュメントについて", "md__home_runner_work_doxygen_style_doxygen_style_doc_files_index.html", "md__home_runner_work_doxygen_style_doxygen_style_doc_files_index" ],
     [ "サブページ1", "md__home_runner_work_doxygen_style_doxygen_style_doc_files__sub_pages_subpage1.html", null ],
     [ "サブページ3", "md__home_runner_work_doxygen_style_doxygen_style_doc_files__sub_pages_subpage3.html", null ],
