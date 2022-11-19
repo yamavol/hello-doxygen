@@ -10,7 +10,7 @@ option(DOC_GEN_LATEX "Enable LaTeX" OFF)
 #
 # embedded variable 
 #
-set(PRJ_DOXY_PROJECT_NAME "SKWallet")
+set(PRJ_DOXY_PROJECT_NAME "Doxygen")
 set(PRJ_DOXY_INPUT      "\
     \"${CMAKE_SOURCE_DIR}/src\"     \
     \"${CMAKE_SOURCE_DIR}/doc/files\"     \
