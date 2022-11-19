@@ -20,7 +20,7 @@ jobs:
     - name: cmake build
       run: |
         cmake -B build  .
-        cmake --build build/doc
+        cmake --build build --target doc
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
