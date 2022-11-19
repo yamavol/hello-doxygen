@@ -19,8 +19,17 @@ set(PRJ_DOXY_EXCLUDE    "\
     \"${CMAKE_SOURCE_DIR}/external\"   \
 ")
 
-set(PRJ_DOXY_HAVE_DOT       $<IF:$<BOOL:${DOC_HAVE_DOT}>,"YES","NO")
-set(PRJ_DOXY_GENERATE_LATEX $<IF:$<BOOL:${DOC_GEN_LATEX}>,"YES","NO")
+if(DOC_HAVE_DOT)
+    set(PRJ_DOXY_HAVE_DOT "YES")
+else()
+    set(PRJ_DOXY_HAVE_DOT "NO")
+endif()
+
+if(DOC_GEN_LATEX)
+    set(PRJ_DOXY_GENERATE_LATEX "YES")
+else()
+    set(PRJ_DOXY_GENERATE_LATEX "NO")
+endif()
 
 #
 # file generation
