@@ -12,9 +12,9 @@ jobs:
         sudo apt-get install libclang1-9 libclang-cpp9 -y
     - name: Install Doxygen
       run: |
-        wget https://jaist.dl.sourceforge.net/project/doxygen/rel-1.9.4/doxygen-1.9.4.linux.bin.tar.gz
-        tar xzf doxygen-1.9.4.linux.bin.tar.gz
-        cd doxygen-1.9.4
+        wget https://jaist.dl.sourceforge.net/project/doxygen/rel-1.9.6/doxygen-1.9.6.linux.bin.tar.gz
+        tar xzf doxygen-1.9.6.linux.bin.tar.gz
+        cd doxygen-1.9.6
         sudo make install
         cd ../
     - name: cmake build
