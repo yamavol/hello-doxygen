@@ -44,7 +44,7 @@ Doxygenのデフォルトのメインぺージ(`mainpage`)を差し替える場�
 
 Doxygenの文書の書き方は以下のページにまとめています。
 
-\subpage  writing
+\ref  writing
 
 
 より詳しい解説が必要な場合は、公式サイトを参照してください。
