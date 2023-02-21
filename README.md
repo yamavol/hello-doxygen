@@ -1,27 +1,29 @@
-# Doxygen Style
+# Hello Doxygen
 
-Doxygenのカスタムスタイルを組み込んだDoxyfileとCMakeの設定例です。
+カスタムデザインを組み込んだDoxygenをcmakeと連携したプロジェクトです。
 
-Doxygen v1.9.2 で動作確認しています。
+Doxygen v1.9.6 で動作確認しています。
 
 ## 使い方
 
-cmakeの `add_custom_target`を使ってターゲット`doc`を追加しています。
+ドキュメントはdocフォルダにあります。
+
+cmakeの `add_custom_target`を使ってターゲット`doc`を追加しています。以下のコマンドを実行してもドキュメントを生成できます。
 
 ```
 cmake -B build
-cmake --build build/doc
+cmake --build build --target doc
 ```
 
 設定方法はCMakeLists.txtを確認してください。
 
 ## サンプル
 
-https://yamavol.github.io/doxygen-style
+https://yamavol.github.io/hello-doxygen
 
 ## Customization
 
-ソースコードはsrcフォルダに、ドキュメントはdoc/files以下に置いています。doc/stylesはデザインやフレームワークに関するファイルです。
+ソースコードはsrcフォルダに、ドキュメントはdoc/src以下に置いています。doc/stylesはデザインやフレームワークに関するファイルです。
 
 Generate layout file
 
