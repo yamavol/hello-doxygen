@@ -1,0 +1,21 @@
+digraph "src/contents/project"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_d4c8b9a9b865a83025de72664c6a709e {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="contents", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_d4c8b9a9b865a83025de72664c6a709e.html",tooltip=""]
+  subgraph clusterdir_a748bd10570192ad439f91b31ab4c732 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_a748bd10570192ad439f91b31ab4c732.html",tooltip=""]
+    dir_a748bd10570192ad439f91b31ab4c732 [shape=plaintext, label="project"];
+  dir_0fa620ff62fe22156d55aff85fdb466e [label="dev", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_0fa620ff62fe22156d55aff85fdb466e.html",tooltip=""];
+  dir_30722e42288ce48686be938e9c9411c0 [label="info", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_30722e42288ce48686be938e9c9411c0.html",tooltip=""];
+  dir_4c810a3972b97381e4be354840aaedb1 [label="memo", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_4c810a3972b97381e4be354840aaedb1.html",tooltip=""];
+  dir_e3f2f6ff613e9cd982a5d169f7a08353 [label="minutes", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_e3f2f6ff613e9cd982a5d169f7a08353.html",tooltip=""];
+  dir_5c2e0e9ab07d750154305bd07fd31ac3 [label="ops", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_5c2e0e9ab07d750154305bd07fd31ac3.html",tooltip=""];
+  dir_404316c4616f650eb33f4de8b28a4c6f [label="spec", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_404316c4616f650eb33f4de8b28a4c6f.html",tooltip=""];
+  }
+  }
+}
