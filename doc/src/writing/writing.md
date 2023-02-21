@@ -1,4 +1,4 @@
-\page writing Doxygenの文法
+# Doxygenの文法 {#doxygen-grammer}
 
 [TOC]
 
