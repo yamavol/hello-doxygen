@@ -23,6 +23,7 @@ jobs:
         cmake --build build --target doc
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
+      if: success() && github.ref == 'refs/heads/master'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./doc/build/html
