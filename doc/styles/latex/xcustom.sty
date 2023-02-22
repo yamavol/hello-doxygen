@@ -1,0 +1,34 @@
+% change \ttfamily to inconsolata
+\usepackage{inconsolata}%
+% 
+\usepackage{adjustbox}%c
+% style code block 
+\renewenvironment{DoxyCode}[1]{%
+  \lineskip%
+  \par%
+  \scriptsize%
+  \normalfont\ttfamily%
+  \rightskip0pt plus 1fil%
+  \settowidth{\DoxyCodeWidth}{000000}%
+  \settowidth{\CodeWidthChar}{?}%
+  \settoheight{\CodeHeightChar}{?}%
+  \setlength{\parskip}{0ex plus 0ex minus 0ex}%
+  \ifthenelse{\equal{#1}{0}}
+  {
+    {\lccode`~32 \lowercase{\global\let~}\NiceSpace}\obeyspaces%
+  }
+  {
+    {\lccode`~32 \lowercase{\global\let~}}\obeyspaces%
+  }
+  \adjustbox{%
+    minipage=\linewidth-0.6in,
+    fbox=.5pt,
+    Clip=0pt 1pt 1pt 1pt,
+  }\bgroup
+}{%
+  \egroup
+  \normalfont%
+  \normalsize%
+  \settowidth{\CodeWidthChar}{?}%
+  \settoheight{\CodeHeightChar}{?}%
+}
