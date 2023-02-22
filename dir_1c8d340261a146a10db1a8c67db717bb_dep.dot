@@ -1,4 +1,4 @@
-digraph "src/contents/manual/example"
+digraph "doc/src/contents/manual/example"
 {
  // LATEX_PDF_SIZE
   bgcolor="transparent";

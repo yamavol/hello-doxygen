@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['書き方_0',['書き方',['../writing.html',1,'index']]]
+  ['情報_0',['情報',['../info.html',1,'contents']]]
 ];

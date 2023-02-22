@@ -26,22 +26,21 @@ var NAVTREE =
 [
   [ "Hello Doxygen", "index.html", [
     [ "はじめに", "introduction.html", "introduction" ],
-    [ "使い方", "setup.html", null ],
+    [ "使い方", "man.html", null ],
     [ "内容", "contents.html", "contents" ],
     [ "書き方", "writing.html", "writing" ],
     [ "その他", "else.html", "else" ],
-    [ "設定", "setup-config.html", [
-      [ "About", "setup-config.html#autotoc_md7", null ],
-      [ "よく使う設定", "setup-config.html#autotoc_md8", [
-        [ "PROJECT_NAME", "setup-config.html#autotoc_md9", null ],
-        [ "INPUT", "setup-config.html#autotoc_md10", null ],
-        [ "EXCLUDE", "setup-config.html#autotoc_md11", null ],
-        [ "OUTPUT_DIRECTORY", "setup-config.html#autotoc_md12", null ],
-        [ "HAVE_DOT", "setup-config.html#autotoc_md13", null ],
-        [ "GENERATE_LATEX", "setup-config.html#autotoc_md14", null ],
-        [ "HTML_HEADER, HTML_FOOTER, HTML_STYLESHEET", "setup-config.html#autotoc_md15", null ]
+    [ "Doxyfileの設定", "man-setup.html", [
+      [ "共通", "man-setup.html#autotoc_md7", [
+        [ "PROJECT_NAME", "man-setup.html#autotoc_md8", null ],
+        [ "INPUT", "man-setup.html#autotoc_md9", null ],
+        [ "EXCLUDE", "man-setup.html#autotoc_md10", null ],
+        [ "OUTPUT_DIRECTORY", "man-setup.html#autotoc_md11", null ],
+        [ "STRIP_FROM_PATH", "man-setup.html#autotoc_md12", null ],
+        [ "HAVE_DOT", "man-setup.html#autotoc_md13", null ]
       ] ]
     ] ],
+    [ "PDF出力", "man-tex.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

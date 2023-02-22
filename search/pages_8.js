@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['メモ_0',['メモ',['../memo.html',1,'contents']]]
+  ['ドキュメントについて_0',['ドキュメントについて',['../about.html',1,'introduction']]]
 ];

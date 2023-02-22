@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['設定_0',['設定',['../setup-config.html',1,'']]]
+  ['書き方_0',['書き方',['../writing.html',1,'index']]]
 ];

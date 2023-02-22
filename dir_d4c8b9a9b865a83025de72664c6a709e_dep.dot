@@ -1,4 +1,4 @@
-digraph "src/contents"
+digraph "doc/src/contents"
 {
  // LATEX_PDF_SIZE
   bgcolor="transparent";
@@ -6,7 +6,7 @@ digraph "src/contents"
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   compound=true
   subgraph clusterdir_61c9e5842729cb34568d93cb98ad85b9 {
-    graph [ bgcolor="#edf0f7", pencolor="grey25", label="src", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_61c9e5842729cb34568d93cb98ad85b9.html",tooltip=""]
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="src", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_61c9e5842729cb34568d93cb98ad85b9.html",tooltip=""]
   subgraph clusterdir_d4c8b9a9b865a83025de72664c6a709e {
     graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_d4c8b9a9b865a83025de72664c6a709e.html",tooltip=""]
     dir_d4c8b9a9b865a83025de72664c6a709e [shape=plaintext, label="contents"];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ドキュメントについて_0',['ドキュメントについて',['../about.html',1,'introduction']]]
+  ['インストール方法_0',['インストール方法',['../man-install.html',1,'contents']]]
 ];
